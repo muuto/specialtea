@@ -1,11 +1,13 @@
 {
-	"name": "express-sample",
-	"version": "0.0.1",
-	"private": true,
-	"scripts": {
-		"start": "node app"
-	},
-	"dependencies": {
-		"express": "*"
-	}
+  "name": "express-sample",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node app"
+  },
+  "dependencies": {
+    "express": "*",
+    "pg": "^4.4.3",
+    "socket.io": "^1.3.7"
+  }
 }
