@@ -17,6 +17,9 @@
 <body>
 <script type="text/javascript" src="../js/submitPage.js">
 </script>
+<script type="text/javascript" src="../js/preview.js">
+}
+</script>
 
 <div id="head">
 	<h1>投稿ページ</h1>
@@ -41,8 +44,10 @@
   		</textarea>
 </div>
 
+<button name="commit" onclick="commit()">変換</button>
 <input type="submit" value="送信" onclick="dispHashTextarea()">
 </form>
+<div id="result" style="border:1px solid #000; padding:1em"></div>
 </div>
 </div>
 <!-- コンテナ終了 -->
