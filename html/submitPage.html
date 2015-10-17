@@ -15,12 +15,14 @@
 </head>
 
 <body>
+<script type="text/javascript" src="../js/submitPage.js">
+</script>
 
 <div id="head">
 	<h1>投稿ページ</h1>
 </div>
 
-
+<form name="fm">
 <!-- ナビゲーション開始 -->
 <div id="submitTitle">
 	 タイトル：   <textarea name="title" cols=80 rows=2 style="vertical-align:top">	
@@ -39,8 +41,8 @@
   		</textarea>
 </div>
 
-<input type="submit" value="送信">
-
+<input type="submit" value="送信" onclick="dispHashTextarea()">
+</form>
 </div>
 </div>
 <!-- コンテナ終了 -->
