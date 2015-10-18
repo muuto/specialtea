@@ -113,12 +113,12 @@ h4 {
 	letter-spacing: 0.1em;
 }
 
-/* --- コンテナ --- */
+
 #container {
-width: 100%; /* ページの幅 */
+width: 100%; 
 height: 100%;
-margin: 0 0; /* センタリング */
-background-color: #ffffff; /* メインカラムの背景色 */
+margin: 0 0; 
+background-color: #ffffff; 
 }
 
 #containerInner {
@@ -126,30 +126,28 @@ width: 100%;
 height: 100%;
 }
 
-/* --- ナビゲーション --- */
+
 #submit {
 float: left;
-width: 33%; /* 左サイドバーの幅 */
+width: 33%; 
 height: 100%;
 text-align: center;
 font-size: 180%;
-border-right: 1px #c0c0c0 solid; /* 右の境界線 */
+border-right: 1px #c0c0c0 solid; 
 }
 
-/* --- メインカラム --- */
 #favorite {
 float: left;
-width: 33%; /* メインカラムの幅 */
+width: 33%; 
 height: 100%;
 text-align: center;
 font-size: 180%;
-border-right: 1px #c0c0c0 solid; /* 右の境界線 */
+border-right: 1px #c0c0c0 solid; 
 }
 
-/* --- サブナビゲーション --- */
 #watch {
 float: left;
-width: 33%; /* 右サイドバーの幅 */
+width: 33%; 
 height: 100%;
 text-align: center;
 font-size: 180%;
@@ -157,12 +155,13 @@ font-size: 180%;
 
 .backView{
 	width: 60%;
+	margin-top: 30px;
 	margin-left: 20%;
 	margin-bottom: 40px;
    	height: 34px;
    	background: #a7c1df;
-   	border-radius: 10px;        /* CSS3草案 */  
-    -webkit-border-radius: 10px;    /* Safari,Google Chrome用 */  
+   	border-radius: 10px;        
+    -webkit-border-radius: 10px;    
     -moz-border-radius: 10px;   
 }
 
@@ -170,7 +169,7 @@ font-size: 180%;
 	width: 80%;
 	height: 100px;
 	margin-left: 10%;
-	margin-top: 20px;
+	margin-top: 40px;
 	border: 1px solid gray;
 	border-radius: 10px;        /* CSS3草案 */  
     -webkit-border-radius: 10px;    /* Safari,Google Chrome用 */  
@@ -193,10 +192,12 @@ font-size: 180%;
 }
 
 .watchContent{
+	float: left;
 	width: 95%;
 	height: 100%;
 	text-align: left;
 	vertical-align: middle;
-	margin-top: 40px;
-	font-size: 70%;
+	margin-top: 0px;
+	font-size: 60%;
+	overflow: scroll;
 }
