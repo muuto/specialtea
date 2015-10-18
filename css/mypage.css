@@ -47,10 +47,23 @@ img {border: 0;	vertical-align: bottom;}
 *******************************************/
 
 #head {
-	margin-top: 10px;
-	margin-bottom: 20px;
-	border-bottom: 2px solid #cccccc;
-	font-size: 180%;
+	position: relative;
+	margin-bottom: 10px;
+	font-size: 140%;
+	background-color: #4E9ABE;  
+    color: #fff;
+}
+
+#pageTitle {
+	
+}
+
+#home{
+	position: absolute;
+	margin-left: 90%;
+	margin-top: -10px;
+	max-width: 20px;
+   	height: auto;
 }
 
 h1 {
@@ -155,9 +168,9 @@ font-size: 180%;
 
 .backView{
 	width: 60%;
-	margin-top: 30px;
+	margin-top: 60px;
 	margin-left: 20%;
-	margin-bottom: 40px;
+	margin-bottom: 80px;
    	height: 34px;
    	background: #a7c1df;
    	border-radius: 10px;        
@@ -169,7 +182,7 @@ font-size: 180%;
 	width: 80%;
 	height: 100px;
 	margin-left: 10%;
-	margin-top: 40px;
+	margin-top: 60px;
 	border: 1px solid gray;
 	border-radius: 10px;        /* CSS3草案 */  
     -webkit-border-radius: 10px;    /* Safari,Google Chrome用 */  
