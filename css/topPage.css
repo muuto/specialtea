@@ -48,9 +48,9 @@ img {border: 0;	vertical-align: bottom;}
 
 #head {
 	margin-top: 10px;
-	margin-bottom: 20px;
-	border-bottom: 2px solid #cccccc;
-	font-size: 180%;
+	margin-bottom: 10px;
+	background: blue;
+	font-size: 140%;
 }
 
 h1 {

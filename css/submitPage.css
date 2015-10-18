@@ -50,10 +50,10 @@ img {border: 0;	vertical-align: bottom;}
 *******************************************/
 
 #head {
-	margin-top: 10px;
-	margin-bottom: 20px;
-	border-bottom: 2px solid #cccccc;
-	font-size: 180%;
+	margin-bottom: 10px;
+	font-size: 140%;
+	background-color: #4E9ABE;  
+    color: #fff;
 }
 
 h1 {
@@ -132,7 +132,7 @@ height: 100%;
 /* --- ナビゲーション --- */
 #submitTitle {
 	position: relative;
-	margin-top: 20px;
+	margin-top: 40px;
 }
 
 #titleEx{
@@ -144,7 +144,7 @@ height: 100%;
 /* --- メインカラム --- */
 #hash {
 	position: relative;
-	margin-top: 30px;
+	margin-top: 40px;
 	margin-right: 30px;
 }
 
@@ -156,7 +156,7 @@ height: 100%;
 /* --- サブナビゲーション --- */
 #sol {
 	position: relative;
-	margin-top: 30px;
+	margin-top: 40px;
 }
 
 #solEx{

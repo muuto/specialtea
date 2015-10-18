@@ -17,6 +17,8 @@ function submit(){
 	var title = dispTitleTextarea();
 	var hash = dispHashTextarea();
 	var sol = dispSolTextarea();
+	var obj = {"title":title,"hash":hash,"sol":sol};
+	return obj;
 }
 
 
