@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+		<title>test</title>
+    </head>
+    <body>
+        <h1>WebSocket Test</h1>
+
+        <!-- <video id="video" controls width="800" height="600"></video> -->
+
+        <!-- <br> -->
+        <button onclick="send()">send</button>
+
+    </body>
+
+    <script src='./socket.io.js'></script>
+
+    <script type="text/javascript">
+
+        var socket = io.connect('http://153.122.0.119:3000');
+
+
+        var hoge = 'hogeeeeeeeeee';
+
+        function send(){
+            //socket.on('connect', function(){
+                 socket.emit('list', hoge);
+             //});
+        };
+
+        socket.on('push', function(msg){
+            console.log('socket.on');
+            //$('#msg').append($('<li>').text(msg));
+            console.log(msg);
+        });
+
+
+    </script>
+
+    </body>
+</html>

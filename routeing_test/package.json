@@ -6,7 +6,10 @@
     "start": "node app"
   },
   "dependencies": {
-    "express": "*"
+    "connect": "^3.4.0",
+    "express": "*",
+    "pg": "^4.4.3",
+    "serve-static": "^1.10.0",
+    "socket.io": "^1.3.7"
   }
 }
-
