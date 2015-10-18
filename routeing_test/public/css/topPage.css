@@ -117,14 +117,14 @@ height: 100%;
 }
 
 #mypage{
-	margin-left: 78%;
+	margin-left: 85%;
 	margin-top: 15px;
 }
 
 #google{
 	position: absolute;
-	margin-left: 92%;
-	margin-top: -28px;
+	margin-left: 95%;
+	margin-top: -18px;
 }
 
 #searchform1 {  
@@ -158,7 +158,6 @@ height: 100%;
     left: 0;  
     width: 100%;  
     height: 50px;  
-    background-color: #f4f4f4;  
     color: black;
     z-index: 2;  
 }  
@@ -166,7 +165,8 @@ height: 100%;
 #serviceTitle{
 	position: absolute;
 	margin-left: 43%;
-	font-size: 30px;
+	font-size: 40px;
+	margin-top: 20px;
 }
 
 .backView{
@@ -175,7 +175,7 @@ height: 100%;
 	text-align: center;
 	margin-top: 90px;
 	margin-bottom: 60px;
-	margin-left: 43%;
+	margin-left: 45%;
 	padding:0;
 	width: 11%;
    	/*background: #a7c1df;*/
