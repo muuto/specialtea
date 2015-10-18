@@ -1,0 +1,157 @@
+.wrapper{
+  width: 90%;
+  margin: 0 auto;
+}
+header{
+  overflow: hidden;
+  padding: 20px;
+}
+.logo{
+  float: left;
+}
+.search-box{
+  margin-left:40px;
+  float: left; 
+}
+::after header{
+  clear: both;
+}
+form, input {
+  margin: 0;
+}
+form {
+  position: relative;
+}
+input[type="search"] {
+  background-color: #f4f4f4;
+  border: solid 1px gray;
+  height: 40px;
+  width: 400px;
+  padding: 0 10px; 
+}
+input[type="image"] {
+  border: 0;
+  padding: 0;
+  width: 40px;
+  height: 40px;
+  border: solid 1px #f4f4f4;
+}
+.search-text{
+  padding: 0 40px;
+}
+.now-search{
+  font-weight: bold;
+  font-style: italic;
+  color: gray;
+}
+.container{
+  overflow: hidden;
+  padding: 20px;
+}
+.result-box{
+  float: left;
+  width: 80%;
+}
+.error-box{
+  margin-top: 40px;
+  padding: 10px;
+}
+.error-box .error-message{
+  font-size: 20px;
+  padding: 10px;
+  background-color: #f4f4f4;
+  border-left: solid 5px #b33e5c;
+}
+.error-box .error-message a{
+  text-decoration: none;
+}
+.ex{
+  color: gray;
+  margin-top: 10px;
+  padding: 0 20px;
+}
+.article{
+  margin-top: 10px;
+  padding-left: 20px;
+}
+.in-detail{
+  margin-top: 25px;
+}
+.hashtags{
+  margin-top: 5px;
+  overflow: hidden;
+}
+.hashtag{
+  float: left;
+  list-style: none;
+  border-bottom-right-radius: 2px;
+  border-top-right-radius: 2px;
+  display: inline-block;
+  position: relative;
+  font-size: 85%;
+  line-height: 1.2em;
+  margin-left: .7em;
+  padding: 0 2px;
+  color: #555 !important;
+  margin-right: 5px;
+  background-color: #dfdfdf;
+  font-size: 85%;
+}
+.hashtag a{
+  text-decoration: none;
+}
+.hashtag :hover{
+  background-color: orange;
+}
+::after .hashtags{
+  clear: both;
+}
+.sumally{
+  color: gray;
+}
+.registration{
+  padding: 10px 5%;
+  margin-top: 40px;
+  border: solid 1px black;
+  background-color: #f4f4f4;
+  text-align: center;
+}
+.registration .error-message{
+  display: block;
+}
+.regist{
+  margin-top: 10px;
+  width: 100px;
+  height: 40px;
+  color: #f4f4f4;
+  background-color: orange;
+}
+.hashtag-box{
+  width: 20%;
+  float: right;
+}
+.hashtag-box .hashtag{
+  margin-top: 5px;
+}
+
+::after .hashtag-box,::after .recommend ul{
+  clear: both;
+}
+.recommend{
+  padding: 20px;
+}
+.recommend h3{
+  margin-top: 20px;
+}
+.recommend ul{
+  list-style: none;
+  padding: 10px;
+}
+.recommend li{
+  float: left;
+  width: 50%;
+  margin-top: 10px;
+}
+.recommend a{
+  text-decoration: none;
+}

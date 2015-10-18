@@ -1,42 +1,88 @@
-<!doctype html>
-<html>
-    <head>
-        <meta charset="utf-8">
-		<title>test</title>
-    </head>
-    <body>
-        <h1>WebSocket Test</h1>
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja" dir="ltr">
+<head profile="http://purl.org/net/ns/metaprof">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>TOPページ</title>
+<meta http-equiv="content-style-type" content="text/css" />
+<meta http-equiv="content-script-type" content="text/javascript" />
+<meta http-equiv="content-language" content="ja" />
+<link rel="start" type="text/html" href="/index.html" />
+<meta name="copyright" content="Netmania All rights reserved." />
+<link rel="stylesheet" href="../css/topPage.css" type="text/css" />
+<link rel="alternate" type="application/atom+xml" title="Atom" href="atom.xml" />
+<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="index.xml" />
 
-        <!-- <video id="video" controls width="800" height="600"></video> -->
+<script type="text/javascript" src="../js/topPage.js"></script>
+<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="../js/socket.io.js"></script>
 
-        <!-- <br> -->
-        <button onclick="send()">send</button>
+</head>
 
-    </body>
+<body>
 
-    <script src='./socket.io.js'></script>
+<div id="headerArea"> 
+    <div id="serviceTitle">
+        サービス名
+    </div>
+    <div id="mypage">
+        <input type="submit" value="My Page" onclick="">
+    </div>
+    <div id="google">
+        <input type="image" src="../image/google.jpeg" alt="google" name="googleBtn" id="googleBtn" class="google" onclick="login" />  
+    </div>
+</div>
 
-    <script type="text/javascript">
+<dl>  
+<dd><form name="searchform1" id="searchform1" method="get" action="#">  
+    <input name="keywords1" id="keywords1" value="" type="text" />  
+    <input type="image" src="../image/btn1.gif" alt="検索" name="searchBtn1" id="searchBtn1" onclick="search" />  
+</form></dd>  
+</dl> 
+<div class="backView">
+    ~New~
+</div>
 
-        var socket = io.connect('http://153.122.0.119:3000');
+<div class="contentView">
+    <a href="file:///Users/marukawadaiki/Documents/Work/specialtea/html/topPage.html">
+    java.lang.NullPointerException
+        at NullPointerExceptionSample.main(NullPointerExceptionSample.java:7)
+    </a>
+    
+    <h3>エラーメッセージの意味：まだ回答がありません。</h3>
+    <h3>回答数：0</h3>
+</div>
 
+<div class="contentView">
+    <a href="file:///Users/marukawadaiki/Documents/Work/specialtea/html/topPage.html">
+    java.lang.NullPointerException
+        at NullPointerExceptionSample.main(NullPointerExceptionSample.java:7)
+    </a>
+    
+    <h3>エラーメッセージの意味：まだ回答がありません。</h3>
+    <h3>回答数：0</h3>
+</div>
 
-        var hoge = 'hogeeeeeeeeee';
+<div class="contentView">
+    <a href="file:///Users/marukawadaiki/Documents/Work/specialtea/html/topPage.html">
+    java.lang.NullPointerException
+        at NullPointerExceptionSample.main(NullPointerExceptionSample.java:7)
+    </a>
+    
+    <h3>エラーメッセージの意味：まだ回答がありません。</h3>
+    <h3>回答数：0</h3>
+</div>
 
-        function send(){
-            //socket.on('connect', function(){
-                 socket.emit('list', hoge);
-             //});
-        };
+<div class="contentView">
+    <a href="file:///Users/marukawadaiki/Documents/Work/specialtea/html/topPage.html">
+    java.lang.NullPointerException
+        at NullPointerExceptionSample.main(NullPointerExceptionSample.java:7)
+    </a>
+    
+    <h3>エラーメッセージの意味：まだ回答がありません。</h3>
+    <h3>回答数：0</h3>
+</div>
 
-        socket.on('push', function(msg){
-            console.log('socket.on');
-            //$('#msg').append($('<li>').text(msg));
-            console.log(msg);
-        });
+<!-- コンテナ終了 -->
 
-
-    </script>
-
-    </body>
-</html>
+</body></html>
