@@ -50,10 +50,9 @@ img {border: 0;	vertical-align: bottom;}
 *******************************************/
 
 #head {
-	margin-bottom: 10px;
-	font-size: 140%;
-	background-color: #4E9ABE;  
-    color: #fff;
+	margin-top: 20px;
+	margin-bottom: 40px;
+	font-size: 200%;
 }
 
 h1 {
@@ -73,10 +72,6 @@ h2 {
 
 h3 {
 	font-size: 130%;
-	font-weight:normal;
-	margin:2.5em 0 1em 0;
-	padding:0 0 0 10px;
-	border-left: 3px solid #cccccc;
 }
 
 h4 {
@@ -137,7 +132,7 @@ height: 100%;
 
 #titleEx{
 	position: absolute;
-	right: 80px;
+	right: 100px;
 	top: 0px;
 	background-color: yellow;
 }
@@ -151,7 +146,7 @@ height: 100%;
 
 #hashEx{
 	position: absolute;
-	right: 52px;
+	right: 72px;
 	top: 0px;
 	background-color: yellow;
 }
@@ -164,7 +159,7 @@ height: 100%;
 #solEx{
 	font-size: 12px;
 	position: absolute;
-	right: 75px;
+	right: 95px;
 	top: 0px;
 	background-color: yellow;
 }
