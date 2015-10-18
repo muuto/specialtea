@@ -193,10 +193,11 @@ font-size: 180%;
 }
 
 .watchContent{
+	float: left;
 	width: 95%;
 	height: 100%;
 	text-align: left;
 	vertical-align: middle;
-	margin-top: 40px;
-	font-size: 70%;
+	margin-top: 0px;
+	font-size: 60%;
 }
