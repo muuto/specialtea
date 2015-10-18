@@ -1,6 +1,6 @@
 var io = require("socket.io").listen(3000);
 var pg = require('pg');
-var fs = resquire('fs');
+var fs = require('fs');
 
 //postgresql
 var connection = "tcp://postgres:''@127.0.0.1:5432/testdb";
@@ -75,14 +75,24 @@ io.sockets.on('connection', function(socket){
         });
     });
 
+    socket.on('index', function(req){
+	fs.readFile('./public/index.html', 'utf8', function(err, file){
+		socket.emit(file);
+	});
+    });
 
     socket.on('search', function(req){
-    	fs.readFile('./html/index.html', 'utf8', function(err, file){
+    	fs.readFile('./public/search.html', 'utf8', function(err, file){
+		console.log(file);
     		socket.emit(file);
     	});
     });
 
-
+    socket.on('detial', function(req){
+	fs.readFile('./pulic/detial.html', 'utf8', function(err, file){
+		console.log('');
+	});
+    });
 
 
 
