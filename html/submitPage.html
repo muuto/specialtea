@@ -28,20 +28,40 @@
 <form name="fm">
 <!-- ナビゲーション開始 -->
 <div id="submitTitle">
-	 タイトル：   <textarea name="title" cols=80 rows=2 style="vertical-align:top">	
+	<div> タイトル： <textarea name="title" value="" cols=80 rows=2 style="vertical-align:top">	
   		</textarea>
+  	</div>
+  	<div id="titleEx">
+  	例：SwiftのtableViewの<br>
+  		不具合について
+  	</div>
 </div>
 
 <div id="hash">
+	<div>
 	 ハッシュタグ：
-  		<textarea name="hash" cols=80 rows=2 style="vertical-align:top">		
+  		<textarea name="hash" value="" cols=80 rows=2 style="vertical-align:top">		
   		</textarea>
+  	</div>
+  	<div id="hashEx">
+  	例：#Swift #tableView
+  	</div>
 </div>
 
 <div id="sol">
+	<div>
 	 解決方法：
-  		<textarea name="sol" cols=80 rows=12 style="vertical-align:top">
+  		<textarea name="sol"  value="" cols=80 rows=12 style="vertical-align:top">
   		</textarea>
+  	</div>
+  	<div id="solEx">
+  	例：UITableViewDelegate<br>
+  		UITableViewDataSoarce<br>
+  		を追加し、<br>
+  		self.delegate=self<br>
+  		self.dataSource=self<br>
+  		を中に書く。<br>
+  	</div>
 </div>
 
 <button name="commit" onclick="commit()">変換</button>

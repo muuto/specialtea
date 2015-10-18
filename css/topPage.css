@@ -120,14 +120,14 @@ height: 100%;
 }
 
 #mypage{
-	margin-left: 70%;
-	margin-top: 25px;
+	margin-left: 72%;
+	margin-top: 15px;
 }
 
 #google{
 	position: absolute;
 	margin-left: 90%;
-	margin-top: -20px;
+	margin-top: -28px;
 }
 
 #searchform1 {  
@@ -150,6 +150,24 @@ height: 100%;
     top: 0;  
     left: 760px;  
 }  
+
+#headerArea {  
+    position: fixed !important;  
+    position: absolute;  
+    top: 0;  
+    left: 0;  
+    width: 100%;  
+    height: 50px;  
+    background-color: #4E9ABE;  
+    color: #fff;
+    z-index: 2;  
+}  
+
+#serviceTitle{
+	position: absolute;
+	margin-left: 43%;
+	font-size: 30px;
+}
 
 .backView{
 	font-size: 200%;
