@@ -7,6 +7,8 @@ header{
   padding: 20px;
 }
 .logo{
+  width: 100px;
+  font-size: 12px;
   float: left;
 }
 .search-box{
@@ -26,7 +28,7 @@ input[type="search"] {
   background-color: #f4f4f4;
   border: solid 1px gray;
   height: 40px;
-  width: 400px;
+  width: 600px;
   padding: 0 10px; 
 }
 input[type="image"] {
@@ -53,7 +55,6 @@ input[type="image"] {
   width: 80%;
 }
 .error-box{
-  margin-top: 40px;
   padding: 10px;
 }
 .error-box .error-message{
@@ -73,6 +74,26 @@ input[type="image"] {
 .article{
   margin-top: 10px;
   padding-left: 20px;
+}
+.article-footer{
+  margin-top: 20px;
+  overflow: hidden;
+  padding: 10px;
+}
+.more{
+  width: auto;
+  float: left;
+  margin-right: 20px;
+}
+.watch{
+  margin-left: 40px;
+  float: left;
+}
+.article-footer img{
+  float: left;
+  overflow: hidden;
+  height: 16px;
+  width: 24px;
 }
 .in-detail{
   margin-top: 25px;
@@ -111,7 +132,7 @@ input[type="image"] {
 }
 .registration{
   padding: 10px 5%;
-  margin-top: 40px;
+  margin: 20px 0;
   border: solid 1px black;
   background-color: #f4f4f4;
   text-align: center;
@@ -138,6 +159,7 @@ input[type="image"] {
   clear: both;
 }
 .recommend{
+  overflow: hidden;
   padding: 20px;
 }
 .recommend h3{
@@ -154,4 +176,8 @@ input[type="image"] {
 }
 .recommend a{
   text-decoration: none;
+}
+footer{
+  padding: 20px;
+  background-color: #f4f4f4;
 }
